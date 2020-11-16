@@ -10,4 +10,4 @@ while(i < 8):
     ant = prox
     i=i+1
     print(prox)
-    
+print('ALTERACAO NO ARQUIVO')
