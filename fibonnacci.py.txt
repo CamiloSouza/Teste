@@ -1,0 +1,13 @@
+i = 0
+ant = 1
+suc = 1
+prox = 0
+print(ant)
+print(suc)
+while(i < 8):
+    prox = ant + suc 
+    suc = ant 
+    ant = prox
+    i=i+1
+    print(prox)
+    
